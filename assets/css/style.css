@@ -1,3 +1,4 @@
+/*Elements section*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,10 +20,6 @@ header {
 header h1 {
   display: inline-block;
   font-size: 48px;
-}
-
-.seo {
-  color: #d9dcd6;
 }
 
 header nav {
@@ -49,6 +46,24 @@ a {
 
 p article {
   font-size: 16px;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* Class Section */
+
+.seo {
+  color: #d9dcd6;
 }
 
 .hero {
@@ -135,6 +150,8 @@ p article {
   max-width: 150px;
 }
 
+/* ID Section */
+
 #search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -187,16 +204,4 @@ p article {
 #social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
-
-footer {
-  padding: 30px;
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-}
-
-h4 {
-  font-size: 20px;
 }
